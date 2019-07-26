@@ -1,9 +1,9 @@
 {
   "name": "ts-swap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Swap values of 2 keys, with compile time type check for compatibility",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./lib/src/index.js",
+  "types": "./lib/src/index.d.ts",
   "scripts": {
     "test": "mocha ./lib/test/**/*.js -w",
     "test-debug": "mocha ./lib/test/**/*.js -w --inspect-brk",
